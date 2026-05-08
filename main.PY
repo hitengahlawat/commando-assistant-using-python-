@@ -2,8 +2,6 @@
 import speech_recognition as sr 
 import pyttsx3
 import webbrowser
-# from openai import OpenAI
-import musiclibrary
 import cohere
 import os
 import numpy as np
@@ -15,7 +13,7 @@ def speak(text):
     engine = pyttsx3.init()
     engine.say(text)
     engine.runAndWait()
-# speak("saksham sharma ")
+
 def aiprocesscommand(command):
     try:
         speak("it will take some time ,                                                                                                                                   be patient")
